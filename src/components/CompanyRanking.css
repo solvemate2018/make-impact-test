@@ -1,0 +1,44 @@
+.company-ranking-container {
+    width: 100%;
+    max-height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+.company-ranking-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-ranking-title {
+    font-family: Inter;
+    font-size: 4.8vw;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a0a14;
+}
+
+.view-all-link {
+    font-family: Inter;
+    font-size: 3vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #646467;
+}
+
+.company-ranking-title-container {}
+
+.company-ranking-companies {
+    display: flex;
+    flex-direction: row;
+}

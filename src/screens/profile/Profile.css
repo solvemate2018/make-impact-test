@@ -1,0 +1,86 @@
+.screen-container {
+    display: flex;
+    height: auto;
+    width: 100vw;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #fafafd;
+}
+
+.profile-container {
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    margin-top: 3vh;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fafafd;
+}
+
+.profile-picture {
+    margin-left: 3.8vw;
+    margin-right: 3.8vw;
+    height: 7vh;
+    width: 7vh;
+    border-radius: 8vh;
+    background-size: cover;
+}
+
+.profile-welcome {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-text {
+    font-family: Inter;
+    font-size: 2.8vh;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a0a14;
+}
+
+.menu-switch {
+    width: 70%;
+    height: 5.5vh;
+    border-radius: 5.5vh;
+    margin-top: 3vh;
+    background-color: #f2f2f4;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-title {
+    margin-top: 1.5vh;
+    margin-left: 3vh;
+    font-family: Inter;
+    font-size: 4vh;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a0a14;
+}
+
+.trending-companies-menu {
+    display: flex;
+    height: 22vh;
+    margin-left: 4vw;
+}
+
+.main-content {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 2.5vw;
+}

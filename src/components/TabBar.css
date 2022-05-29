@@ -1,0 +1,40 @@
+.tab-navigation {
+    width: 100vw;
+    height: 12vh;
+    bottom: 0%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 -1vw 2vw 0 rgba(10, 10, 20, 0.1);
+    background-color: #fafafd;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigation-icon {
+    width: 7vw;
+    width: 7vw;
+}
+
+.navigation-text {
+    font-family: Inter;
+    font-size: 3vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #676767;
+}
+
+.active {
+    color: #000;
+}

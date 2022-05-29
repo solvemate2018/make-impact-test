@@ -1,0 +1,90 @@
+.trending-company {
+    box-shadow: 1px 1px 10px #999;
+    width: 70vw;
+    height: 19vh;
+    position: relative;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-radius: 2vh;
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+}
+
+.company-image {
+    width: 70vw;
+    height: 19vh;
+    position: absolute;
+    border-radius: 2vh;
+}
+
+.gradient {
+    width: 70vw;
+    height: 19vh;
+    border-radius: 2vh;
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(10, 10, 20, 0) 39%, rgba(10, 10, 20, 0.79) 69%, #0a0a14);
+}
+
+.company-description {
+    width: 70vw;
+    height: 9.5vh;
+    border-radius: 2vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.company-logo-container {
+    width: 12vw;
+    height: 12vw;
+    background-color: #fafafd;
+    border-radius: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-logo {
+    width: 9vw;
+    height: 9vw;
+}
+
+.company-title {
+    width: 36vw;
+    height: 8vw;
+    font-family: Inter;
+    font-size: 3.4vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.05px;
+    text-align: left;
+    color: #fafafd;
+}
+
+.company-header {
+    font-size: 5.1vw;
+    font-weight: 600;
+    letter-spacing: 0.07px;
+}
+
+.company-title-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+
+.price {
+    font-family: Inter;
+    font-size: 4vw;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.06px;
+    text-align: right;
+    color: #fafafd;
+}

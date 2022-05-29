@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Commitments from './screens/commitments/Commitments.tsx';
+import AdditionalInfo from './screens/notifications/AdditionalInfo.tsx';
+import Profile from './screens/profile/Profile.tsx';
+import Sectors from './screens/sectors/Sectors.tsx';
+import Stocks from './screens/stocks/Stocks.tsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Commitments/> */}
+    {/* <AdditionalInfo/> */}
+    {/* <Profile/> */}
+    {/* <Sectors/> */}
+    <Stocks/>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

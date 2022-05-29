@@ -1,0 +1,67 @@
+.notification-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #0a0a14;
+    align-items: flex-end;
+}
+
+.notification-body {
+    width: 100%;
+    height: 50vh;
+    margin-bottom: -3vh;
+    border-radius: 3vh;
+    background-color: #fafafd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.notification-content {
+    width: 92%;
+    height: auto;
+    padding-top: 3.4vh;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.notification-title {
+    width: 100%;
+    height: auto;
+    font-family: Inter;
+    font-size: 2.4vh;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: 0.07px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.notification-text {
+    width: 100%;
+    font-family: Inter;
+    font-size: 1.78vh;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.12px;
+    text-align: left;
+    color: #000;
+}
+
+.notification-close {
+    width: 2.75vh;
+    height: 2.75vh;
+    padding-top: 6vh;
+    justify-self: flex-start;
+}
+
+.notification-hidden-field {
+    width: 100%;
+    height: 3vh;
+}

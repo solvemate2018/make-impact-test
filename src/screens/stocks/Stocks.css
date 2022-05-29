@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafd;
+}
+
+.header {
+    width: 100vw;
+    height: 21vh;
+
+}
+
+.title-container {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stock-title {
+    font-family: Inter;
+    font-size: 5.7vw;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: 0.07px;
+    text-align: left;
+    color: #0a0a14;
+    margin-left: 4vw;
+}
+
+.question-icon {
+    width: 6vw;
+    height: 6vw;
+    margin-right: 4vw;
+}
+
+.stocks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
